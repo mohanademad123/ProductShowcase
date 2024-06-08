@@ -25,7 +25,6 @@ export class AllProductsComponent implements OnInit {
       (res: any) => {
         this.loading = true;
         this.products = res;
-        console.log(res)
       },
       (error) => {
         alert(error.message);
@@ -38,7 +37,7 @@ export class AllProductsComponent implements OnInit {
       (res: any) => {
         this.loading = true;
         this.categories = res;
-        console.log(res);
+
       },
       (error) => {
         alert(error.message);

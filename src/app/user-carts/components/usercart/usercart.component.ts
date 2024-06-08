@@ -56,6 +56,5 @@ export class UsercartComponent {
         this.products.push({item: res , quantity:this.details.products[x].quantity})
       })
     }
-    console.log(this.details)
   }
 }

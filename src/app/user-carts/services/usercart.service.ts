@@ -16,6 +16,6 @@ export class UsercartService {
   }
 
   deleteCart(id:number) {
-    return this.http.delete('https://fakestoreapi.com/carts/' + id)
+    return this.http.delete('https://fakestoreapi.com/carts/' + id);
   }
 }
